@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "jockball",
+  "version": "${version}",
+  "name": "JockBall",
+  "description": "Football americano: estadios-mazmorra, equipamiento por niveles y el Capitan.",
+  "authors": ["InventorPWB"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.jockball.JockBall"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": ">=26.2-",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

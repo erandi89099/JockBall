@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "jockball:upgrade_template",
+  "base": "jockball:pants_l3",
+  "addition": "jockball:trophy",
+  "result": {
+    "id": "jockball:pants_l4"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "jockball:upgrade_template",
+  "base": "jockball:cleats_l1",
+  "addition": "jockball:trophy",
+  "result": {
+    "id": "jockball:cleats_l2"
+  }
+}

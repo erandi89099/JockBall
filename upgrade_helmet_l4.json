@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "jockball:upgrade_template",
+  "base": "jockball:helmet_l3",
+  "addition": "jockball:trophy",
+  "result": {
+    "id": "jockball:helmet_l4"
+  }
+}

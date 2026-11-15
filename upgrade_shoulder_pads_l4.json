@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "jockball:upgrade_template",
+  "base": "jockball:shoulder_pads_l3",
+  "addition": "jockball:trophy",
+  "result": {
+    "id": "jockball:shoulder_pads_l4"
+  }
+}
