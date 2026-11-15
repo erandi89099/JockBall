@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "jockball:level_5"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "jockball:level_5"
+      }
+    ]
+  }
+}

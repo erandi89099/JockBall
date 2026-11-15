@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jockball:item/shoulder_pads_l3"
+  }
+}
