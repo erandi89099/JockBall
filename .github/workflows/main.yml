@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: unzip -q proyecto.zip -d proyecto
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -15,7 +16,8 @@ jobs:
         with:
           gradle-version: 9.3.0
       - run: gradle build
+        working-directory: proyecto
       - uses: actions/upload-artifact@v4
         with:
           name: jockball-jar
-          path: build/libs/jockball-*.jar
+          path: proyecto/build/libs/jockball-*[0-9].jar
